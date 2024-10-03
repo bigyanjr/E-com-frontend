@@ -348,6 +348,7 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="phone"],
+input[type="password"],
 
 select,
 textarea {
@@ -394,7 +395,7 @@ button:hover {
 
 /* about us page */  
 .about-us-page {
-  display: flex;
+  display: list-item;
   justify-content: center;
   align-items: center;
   padding: 50px 20px;
