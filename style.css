@@ -347,6 +347,8 @@ label {
 
 input[type="text"],
 input[type="email"],
+input[type="phone"],
+
 select,
 textarea {
   width: 100%;
@@ -358,6 +360,7 @@ textarea {
 
 input[type="text"]:focus,
 input[type="email"]:focus,
+input[type="phone"]:focus,
 textarea:focus {
   border-color: #007BFF;
   outline: none;
